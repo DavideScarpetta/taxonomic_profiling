@@ -23,7 +23,13 @@ data_type=SampleData[PairedEndSequencesWithQuality]
 manifest_file=/home/scarpettad/pe-33p-manifest
 
 # Import the paired-end fastq files into QIIME 2
-singularity run ${sing_container} qiime tools import --type $data_type --input-path $manifest_file --output-path $output_dir/$artifact_name --input-format PairedEndFastqManifestPhred33V2
+singularity run ${sing_container} qiime tools import \
+  --type $data_type \
+  --input-path $manifest_file \
+  --output-path $output_dir/$artifact_name \
+  --input-format PairedEndFastqManifestPhred33V2
 
 # Seq quality control
-singularity run ${sing_container} qiime demux summarize --i-data $output_dir/$artifact_name --o-visualization $output_dir/paired_end.qzv
+singularity run ${sing_container} qiime demux summarize \
+  --i-data $output_dir/$artifact_name \
+  --o-visualization $output_dir/paired_end.qzv

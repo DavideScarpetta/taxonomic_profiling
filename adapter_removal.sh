@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=Adapter_Trimming
 #SBATCH --ntasks 1 
-#SBATCH --mem=24 
+#SBATCH --mem=24G 
 #SBATCH --output=stdout_adaptertrimming.Log
 
 # Activate conda environment with cutadapt
