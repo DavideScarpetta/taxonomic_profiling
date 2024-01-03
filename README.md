@@ -7,15 +7,19 @@ All scripts should be run after a quality control check. I recommend fastqc and 
 
 Be sure to replace the variables with your own variables of interest. 
 
+This analysis was run on a Slurm HPC. 
+
 Use of conda and singularity is simply for convenience. 
 
-- CUTADAPT documentation:
+#### Docs: 
+
+- _CUTADAPT_ documentation:
 https://cutadapt.readthedocs.io/en/stable/
 
-- DADA2 documentation:
+- _DADA2_ documentation:
 https://www.bioconductor.org/packages/release/bioc/manuals/dada2/man/dada2.pdf
 
-- QIIME2 documentation:
+- _QIIME2_ documentation:
 https://docs.qiime2.org/2023.9/
 
 #### Scripts order:
