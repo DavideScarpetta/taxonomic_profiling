@@ -9,6 +9,16 @@ Be sure to replace the variables with your own variables of interest.
 
 Use of conda and singularity is simply for convenience. 
 
+CUTADAPT documentation:
+https://cutadapt.readthedocs.io/en/stable/
+
+DADA2 documentation:
+https://www.bioconductor.org/packages/release/bioc/manuals/dada2/man/dada2.pdf
+
+QIIME2 documentation:
+https://docs.qiime2.org/2023.9/
+
+#### Scripts order:
 
 ###### - 1) Primer removal
   A bash script in order to remove primer, using cutadapt
