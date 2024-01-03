@@ -11,6 +11,14 @@ This analysis was run on a Slurm HPC.
 
 Use of conda and singularity is simply for convenience. 
 
+Create a new conda environment and install cutadapt and biom-format: 
+
+- cutadapt:
+-       conda install -c bioconda cutadapt
+
+- biom-format
+-       conda install -c bioconda biom-format
+
 #### SILVA DB
 Silva 138 SSURef NR99 full-length sequences and taxonomy to train the classifier are available here: 
 
