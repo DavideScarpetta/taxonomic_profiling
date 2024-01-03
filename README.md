@@ -11,7 +11,7 @@ This analysis was run on a Slurm HPC.
 
 Use of conda and singularity is simply for convenience. 
 
-Create a new conda environment and install cutadapt and biom-format: 
+Create a new conda environment and install _cutadapt_ and _biom-format_: 
 
 #### cutadapt
       conda install -c bioconda cutadapt
