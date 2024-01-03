@@ -37,7 +37,7 @@ https://www.bioconductor.org/packages/release/bioc/manuals/dada2/man/dada2.pdf
 - _QIIME2_ documentation:
 https://docs.qiime2.org/2023.9/
 
-#### Scripts order:
+## Scripts order:
 
 ###### - 1) Primer removal
   A bash script in order to remove primer, using cutadapt
