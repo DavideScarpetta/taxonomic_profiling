@@ -45,4 +45,11 @@ https://docs.qiime2.org/2023.9/
 ###### - 7) Classifier 
   A bash script to test the previously trained classifier on our data
 
-
+###### - 8) Export Filter
+  A bash script to:
+    - export taxa barplot 
+    - include only sequence classified at the phylum level 
+    - filter out chloroplast sequence 
+    - export taxonomic counts at all level
+    - collapse groups of features that have the same taxonomic assignment through the specified level
+    - convert tables to .tsv
