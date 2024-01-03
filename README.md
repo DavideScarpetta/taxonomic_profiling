@@ -3,7 +3,7 @@
 *Metabarcoding* is the barcoding of DNA/RNA (or eDNA/eRNA) in a manner that allows for the simultaneous identification of many taxa within the same sample. The main difference between barcoding and metabarcoding is that metabarcoding does not focus on one specific organism, but instead aims to determine species composition within a sample.
 
 Here I present a *Bioinformatics* Metabarcoding analysis pipeline, starting from raw PE fastq data, using _DADA2_ and _qiime2_. 
-All scripts should be run after a quality control pass. I recommend fastqc and multiqc. 
+All scripts should be run after a quality control check. I recommend fastqc and multiqc. 
 
 Be sure to replace the variables with your own variables of interest. 
 
