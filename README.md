@@ -11,6 +11,13 @@ This analysis was run on a Slurm HPC.
 
 Use of conda and singularity is simply for convenience. 
 
+#### SILVA DB
+Silva 138 SSURef NR99 full-length sequences and taxonomy to train the classifier are available here: 
+
+https://docs.qiime2.org/2023.9/data-resources/
+
+
+
 #### Docs: 
 
 - _CUTADAPT_ documentation:
