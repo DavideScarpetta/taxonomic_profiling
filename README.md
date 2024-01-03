@@ -11,24 +11,24 @@ Use of conda and singularity is simply for convenience.
 
 
 ###### - 1) Primer removal
-                A bash script in order to remove primer, using cutadapt
+  A bash script in order to remove primer, using cutadapt
 
 ###### - 2) Adapter removal
-                A bash script in order to remove adapter, using cutadapt
+  A bash script in order to remove adapter, using cutadapt
 
 ###### - 3) Qiime import
-                A bash scritp in order to import files into a qiime artifact (.qza file), to work easily and faster on fastq files
+  A bash script in order to import files into a qiime artifact (.qza file), to work easily and faster on fastq files
 
 ###### - 4) Denoise DADA2
-                A bash script in order to do denoising using DADA2, output are Amplicon Sequence Variants (better than OTUs as it is said in literature)
+  A bash script in order to do denoising using DADA2, output are Amplicon Sequence Variants (better than OTUs as it is said in literature)
 
 ###### - 5) Extract reads classifier
-                A bash script to extract reference reads from SILVA database using PCR primers
+  A bash script to extract reference reads from SILVA database using PCR primers
 
 ###### - 6) Training classifier
-                A bash script to train a Naive Bayes classifier. Output is a classifier.qza
+  A bash script to train a Naive Bayes classifier. Output is a classifier.qza
 
 ###### - 7) Classifier 
-                A bash script to test the previously trained classifier on our data
+  A bash script to test the previously trained classifier on our data
 
 
