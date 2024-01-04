@@ -11,6 +11,21 @@ This analysis was run on a Slurm HPC.
 
 Use of conda and singularity is simply for convenience. 
 
+Create a new conda environment and install _cutadapt_ and _biom-format_: 
+
+#### cutadapt
+      conda install -c bioconda cutadapt
+
+#### biom-format
+      conda install -c bioconda biom-format
+
+#### SILVA DB
+Silva 138 SSURef NR99 full-length sequences and taxonomy to train the classifier are available here: 
+
+https://docs.qiime2.org/2023.9/data-resources/
+
+
+
 #### Docs: 
 
 - _CUTADAPT_ documentation:
@@ -22,7 +37,7 @@ https://www.bioconductor.org/packages/release/bioc/manuals/dada2/man/dada2.pdf
 - _QIIME2_ documentation:
 https://docs.qiime2.org/2023.9/
 
-#### Scripts order:
+## Scripts order:
 
 ###### - 1) Primer removal
   A bash script in order to remove primer, using cutadapt
@@ -45,4 +60,17 @@ https://docs.qiime2.org/2023.9/
 ###### - 7) Classifier 
   A bash script to test the previously trained classifier on our data
 
-
+###### - 8) Export Filter
+  A bash script to:
+  
+  - export taxa barplot 
+    
+  - include only sequence classified at the phylum level 
+    
+  - filter out chloroplast sequence 
+    
+  - export taxonomic counts at all level
+    
+  - collapse groups of features that have the same taxonomic assignment through the specified level
+    
+  - convert tables to .tsv
