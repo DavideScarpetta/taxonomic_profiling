@@ -74,3 +74,6 @@ https://docs.qiime2.org/2023.9/
   - collapse groups of features that have the same taxonomic assignment through the specified level
     
   - convert tables to .tsv
+
+###### - 9) Tree construction
+  A bash script to generate tree for phylogenetic diversity analysis
