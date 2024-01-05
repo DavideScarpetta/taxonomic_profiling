@@ -70,9 +70,6 @@ https://docs.qiime2.org/2023.9/
   - filter out chloroplast sequence 
     
   - export taxonomic counts at all level
-
-###### - 9) Core Metrics
-  A bash script including core metrics method, which rarefies a feature table to a user-specified depth, computes several alpha and beta diversity metrics, and generates PCoA plots using Emperor for each of the beta diversity metrics
     
   - collapse groups of features that have the same taxonomic assignment through the specified level
     
@@ -80,3 +77,6 @@ https://docs.qiime2.org/2023.9/
 
 ###### - 9) Tree construction
   A bash script to generate tree for phylogenetic diversity analysis
+
+###### - 10) Core Metrics
+  A bash script including core metrics method, which rarefies a feature table to a user-specified depth, computes several alpha and beta diversity metrics, and generates PCoA plots using Emperor for each of the beta diversity metrics
