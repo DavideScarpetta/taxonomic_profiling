@@ -84,3 +84,7 @@ https://docs.qiime2.org/2023.9/
 
 ###### - 10) Core Metrics
   A bash script including core metrics method, which rarefies a feature table to a user-specified depth, computes several alpha and beta diversity metrics, and generates PCoA plots using Emperor for each of the beta diversity metrics
+
+###### - 11) Alpha metrics
+  A bash script to calculate metrics that are not the default, such as CHAO1, simpson, ACE. 
+
