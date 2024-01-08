@@ -11,6 +11,10 @@ This analysis was run on a Slurm HPC.
 
 Use of conda and singularity is simply for convenience. 
 
+#### QIIME2 singularity image:
+
+      singularity pull docker://quay.io/qiime2/amplicon:2023.9
+
 Create a new conda environment and install _cutadapt_ and _biom-format_: 
 
 #### cutadapt
@@ -77,3 +81,6 @@ https://docs.qiime2.org/2023.9/
 
 ###### - 9) Tree construction
   A bash script to generate tree for phylogenetic diversity analysis
+
+###### - 10) Core Metrics
+  A bash script including core metrics method, which rarefies a feature table to a user-specified depth, computes several alpha and beta diversity metrics, and generates PCoA plots using Emperor for each of the beta diversity metrics
