@@ -11,6 +11,10 @@ This analysis was run on a Slurm HPC.
 
 Use of conda and singularity is simply for convenience. 
 
+#### QIIME2 singularity image:
+
+      singularity pull docker://quay.io/qiime2/amplicon:2023.9
+
 Create a new conda environment and install _cutadapt_ and _biom-format_: 
 
 #### cutadapt
