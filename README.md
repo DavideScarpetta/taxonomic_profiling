@@ -88,9 +88,9 @@ https://docs.qiime2.org/2023.9/
 ###### - 11) Alpha metrics
   A bash script to calculate metrics that are not the default, such as CHAO1, simpson, ACE. 
 
-##### - 12) Alpha 
+###### - 12) Alpha 
   A bash script to do alpha group significance analysis
 
-##### - 13) Beta Diversity
+###### - 13) Beta Diversity
   A bash script to do beta group significance analysis
 
