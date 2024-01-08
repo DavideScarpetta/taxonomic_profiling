@@ -15,7 +15,10 @@ Use of conda and singularity is simply for convenience.
 
       singularity pull docker://quay.io/qiime2/amplicon:2023.9
 
-Create a new conda environment and install _cutadapt_ and _biom-format_: 
+#### QIIME2 conda installation:
+
+      wget https://raw.githubusercontent.com/qiime2/distributions/dev/latest/passed/qiime2-amplicon-ubuntu-latest-conda.yml
+      conda env create -n qiime2-dev --file qiime2-amplicon-ubuntu-latest-conda.yml
 
 #### cutadapt
       conda install -c bioconda cutadapt
