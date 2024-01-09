@@ -15,7 +15,7 @@ source activate /home/scarpettad/.conda/envs/qiime2-dev
 metadata=/home/scarpettad/metadata_secondrun.tsv
 
 # Setting the table variable
-table_qza=/home/scarpettad/second_run/qiime2_taxonomy_output/filtered-table.qza
+table_qza=/home/scarpettad/core-metrics-results/rarefied_table.qza
 
 # Additional alpha diversity metrics not contained in core-metrics
 
