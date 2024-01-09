@@ -15,7 +15,10 @@ Use of conda and singularity is simply for convenience.
 
       singularity pull docker://quay.io/qiime2/amplicon:2023.9
 
-Create a new conda environment and install _cutadapt_ and _biom-format_: 
+#### QIIME2 conda installation:
+
+      wget https://raw.githubusercontent.com/qiime2/distributions/dev/latest/passed/qiime2-amplicon-ubuntu-latest-conda.yml
+      conda env create -n qiime2-dev --file qiime2-amplicon-ubuntu-latest-conda.yml
 
 #### cutadapt
       conda install -c bioconda cutadapt
@@ -83,8 +86,14 @@ https://docs.qiime2.org/2023.9/
   A bash script to generate tree for phylogenetic diversity analysis
 
 ###### - 10) Core Metrics
-  A bash script including core metrics method, which rarefies a feature table to a user-specified depth, computes several alpha and beta diversity metrics, and generates PCoA plots using Emperor for each of the beta diversity metrics
+  A bash script including core metrics method, which rarefies a feature table to a user-specified depth, computes qiime2 default alpha and beta diversity metrics, and generates PCoA plots using Emperor for each of the beta diversity metrics
 
 ###### - 11) Alpha metrics
   A bash script to calculate metrics that are not the default, such as CHAO1, simpson, ACE. 
+
+###### - 12) Alpha 
+  A bash script to do alpha group significance analysis
+
+###### - 13) Beta Diversity
+  A bash script to do beta group significance analysis
 
